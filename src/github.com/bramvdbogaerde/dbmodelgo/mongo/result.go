@@ -14,3 +14,7 @@ type MongoResult struct {
 func (r MongoResult) All(receiver interface{}) {
 	r.Session.DB("test").C(r.Table).Find(r.Query).All(receiver)
 }
+
+func (r MongoResult) One(receiver interface{}) {
+	r.Session.DB("test").C(r.Table).Find(r.Query).One(receiver)
+}

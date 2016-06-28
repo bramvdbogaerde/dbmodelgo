@@ -44,3 +44,8 @@ func (res RethinkResult) All(receiver interface{}) {
 	result, _ := r.Table(res.Table).Filter(res.Query).Run(res.Session)
 	result.All(receiver)
 }
+
+func (res RethinkResult) One(receiver interface{}) {
+	result, _ := r.Table(res.Table).Filter(res.Query).Run(res.Session)
+	result.One(receiver)
+}

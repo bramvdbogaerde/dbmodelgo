@@ -7,7 +7,7 @@ type Database interface {
 
 type Result interface {
 	All(receiver interface{})
-	//	One(receiver interface{})
+	One(receiver interface{})
 }
 
 type Query struct {
