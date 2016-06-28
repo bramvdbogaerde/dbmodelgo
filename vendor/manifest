@@ -1,0 +1,61 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "f3cfb454f4c209e6668c95216c4744b8fddb2356",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/cenk/backoff",
+			"repository": "https://github.com/cenk/backoff",
+			"revision": "cdf48bbc1eb78d1349cbda326a4a037f7ba565c6",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "0c1f6d65b5a189c2250d10e71a5506f06f9fa0a0",
+			"branch": "master",
+			"path": "/proto"
+		},
+		{
+			"importpath": "github.com/hailocab/go-hostpool",
+			"repository": "https://github.com/hailocab/go-hostpool",
+			"revision": "e80d13ce29ede4452c43dea11e79b9bc8a15b478",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/pbkdf2",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "811831de4c4dd03a0b8737233af3b36852386373",
+			"branch": "master",
+			"path": "/pbkdf2"
+		},
+		{
+			"importpath": "gopkg.in/dancannon/gorethink.v2",
+			"repository": "https://gopkg.in/dancannon/gorethink.v2",
+			"revision": "61cfdef59cb67a9bf9ab2311bd5eb69e132b6bf4",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/fatih/pool.v2",
+			"repository": "https://gopkg.in/fatih/pool.v2",
+			"revision": "cba550ebf9bce999a02e963296d4bc7a486cb715",
+			"branch": "v2.0.0"
+		},
+		{
+			"importpath": "gopkg.in/mgo.v2",
+			"repository": "https://gopkg.in/mgo.v2",
+			"revision": "29cc868a5ca65f401ff318143f9408d02f4799cc",
+			"branch": "v2"
+		},
+		{
+			"importpath": "gopkg.in/tomb.v2",
+			"repository": "https://gopkg.in/tomb.v2",
+			"revision": "14b3d72120e8d10ea6e6b7f87f7175734b1faab8",
+			"branch": "v2"
+		}
+	]
+}
